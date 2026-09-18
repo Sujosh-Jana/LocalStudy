@@ -91,3 +91,22 @@ MIT. See `LICENSE`.
 ## Credits
 
 Built with the open-source QVAC SDK by Tether.
+
+
+## Bounty demo
+
+For the demo, launch LocalStudy, wait for the QVAC model to finish loading, then ask a study question such as:
+
+> Explain electrolysis in simple terms and give one real-world example.
+
+The visible response is generated through QVAC's local completion path. Capture a screenshot or short recording showing the app, the QVAC/local-inference status, and the generated answer.
+
+## Submission checklist
+
+- Public GitHub repository
+- MIT open-source license
+- QVAC SDK 0.19.1 dependency
+- `loadModel()` + `completion()` implementation
+- README with setup and run instructions
+- Screenshot or short screen recording of the working app
+- X post with the repository link and `@qvac` tag
